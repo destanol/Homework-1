@@ -4,7 +4,7 @@
 
 *      /* CSS Reset */
 {
-        margin: 0;
+        margin: 0px;
         padding: 0;
         border: 0;
         font-size: 100%;
@@ -15,3 +15,62 @@
  display: none;   
 }
 
+#headerCon
+{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #000;
+        color: white;
+        font-family: termina, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+body
+{
+        background-image: url(/images/white_wave_@2X.png);
+        background-repeat: repeat;      
+}
+
+        /* background pattern sourced from www.subtlepatterns.com  */
+
+#container
+{
+        width:1200px;
+        height: 100vh;
+        margin: 0 auto;
+        background-color: #F9F6F1;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        padding: 0 200px 0 200px;
+}
+
+.bioBox
+{
+        flex: 1 1;
+}
+
+.bioName
+{
+        padding: 70px 10px 22px 30px;
+        font-family: henderson-slab-basic, serif;
+        font-size: 3em
+}
+
+.profilePic
+{
+        margin: 0 auto;
+        display: inherit;
+}
+
+p
+{
+        padding: 40px;
+        font-family: termina, sans-serif;
+	line-height: 1.7;
+	font-size: 1rem;
+	orphans: 2;}
