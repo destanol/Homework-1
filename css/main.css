@@ -39,14 +39,14 @@ body
 
 #container
 {
-        width:1200px;
-        height: 100vh;
+        width:80vw;
+        /* height: 100vh; */
         margin: 0 auto;
         background-color: #F9F6F1;
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
-        padding: 0 200px 0 200px;
+        padding: 0 70px 0 70px;
 }
 
 .bioBox
